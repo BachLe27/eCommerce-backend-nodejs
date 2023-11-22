@@ -1,11 +1,11 @@
-@urldev=http://localhost:3000/v1/api/
+@urldev=http://localhost:3000/v1/api
 
 ### signup
-POST {{urldev}}/shop/signup
-Content-Type: application/json
+POST {{urldev}}/shop/login
+content-type: application/json
+x-api-key: 05f65a0880130e656f8b8cc573d4a2b999c03ef3164dcdfc7d093852738435829f6caed2cc1fc4afb072aff06fd3187bf33e6bbabfd29144cfd595e147f4e16c
 
 {
-  "name": "Shop Tips",
-  "email": "test1@gmail.com",
+  "email": "test3@gmail.com",
   "password": "test123"
 }
